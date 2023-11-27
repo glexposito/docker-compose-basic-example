@@ -3,6 +3,11 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.get("/colours")
-def read_colours():
-    return {["Red", "Blue", "Yellow"]}
+@app.get("/")
+def read_root():
+    return "Hello World!"
+
+
+@app.get("/colors")
+def read_colors():
+    return ["Red", "Blue", "Yellow"]
