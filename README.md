@@ -17,3 +17,6 @@ The root directory contains the `docker-compose.yml` which describes the configu
 ```console
 docker compose up
 ```
+
+#### API
+Open http://0.0.0.0:8000/docs to view the automatic API docs in the browser.
