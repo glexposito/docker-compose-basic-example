@@ -4,7 +4,7 @@
     let colors: string[];
   
     onMount(async () => {
-      const response = await fetch('http://0.0.0.0:8000/colors');
+      const response = await fetch('http://127.0.0.1:8000/colors');
       colors = await response.json();
     });
 </script>
