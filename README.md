@@ -20,3 +20,6 @@ docker compose up
 
 #### API
 Open http://0.0.0.0:8000/docs to view the automatic API docs in the browser.
+
+#### Web
+Open http://0.0.0.0:3000 to view it in the browser.
